@@ -1,8 +1,8 @@
 # FVQA: Fact-based Visual Question Answering
 It can be downloaded from [here](https://www.dropbox.com/s/iyz6l7jhbt6jb7q/new_dataset_release.zip?dl=0).  
-*./Name_Lists: the txt files contain the train and test images' id in the dataset.  
-*./new_dataset_release/Images: the image files used by this dataset, which are extracted from COCO and ImageNet datasets.  
-*./new_dataset_release/all_fact_triples_release.json: the facts (triplets <e1, rel, e2>) corresponding to the visual concepts shown in the paper (object/scene/action), which are extracted from three knowledge bases, i.e., DBpedia, ConceptNet and Webchild.  
+* ./Name_Lists: the txt files contain the train and test images' id in the dataset.  
+* ./new_dataset_release/Images: the image files used by this dataset, which are extracted from COCO and ImageNet datasets.  
+* ./new_dataset_release/all_fact_triples_release.json: the facts (triplets <e1, rel, e2>) corresponding to the visual concepts shown in the paper (object/scene/action), which are extracted from three knowledge bases, i.e., DBpedia, ConceptNet and Webchild.  
 -- r: the unique id of entity rel (relationship)  
 -- e1: the unique id of entity e1  
 -- e2: the unique id of entity e2  
@@ -10,7 +10,7 @@ It can be downloaded from [here](https://www.dropbox.com/s/iyz6l7jhbt6jb7q/new_d
 -- e1_label: the textual string describing entity e1  
 -- e2_label: the textual string describing entity e2  
 -- surface: the textual description of the fact  
-*./new_dataset_release/all_qs_dict_release.json: the collected questions and their associated supporting facts.  
+* ./new_dataset_release/all_qs_dict_release.json: the collected questions and their associated supporting facts.  
 -- fact_surface: the textual description of the supporting fact  
 -- ans_source: the source of the answer (Image or KB)  
 -- question: the collected question  
